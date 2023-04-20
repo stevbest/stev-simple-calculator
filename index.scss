@@ -1,0 +1,325 @@
+body{
+
+    font-family: Arial, Helvetica, sans-serif;
+    // display: flex;
+    // justify-content: center;
+    // margin-top: 200px;
+    //top: 200px;
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+    .containers{
+        margin-top: 7%;
+        //background-color: rgb(109, 129, 109);
+        //width: 100%;
+        .gridcontainer{
+            width: 100%;
+            padding-top: 10px;
+
+            //background-color: red;
+            //display: grid;
+            //grid-template-rows: 50px 1fr;
+
+            .inputsandresult{
+
+                box-shadow: 2px 2px 10px rgba(165, 164, 164, 0.5);
+                border-radius: 15px;
+                border-radius: 200px;
+                border:solid;
+                border-width: 1.5px;
+                border-color: rgb(236, 235, 235);
+
+
+                margin: 0 10px;
+                margin-top: 30px;
+                //background-color: red;
+                height: 64%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                .txtnumber{
+                    //background-color: black;
+                    //margin-top: 25px;
+                    margin-left: 10px;
+                    margin-right: 20px;
+                    flex: 2;
+                    // width: 100%;
+                    // height: 45px;
+                    padding-left: 10px;
+                    font-size: 16px;
+                    border-radius: 200px;
+                    border:none;
+                    border-width: 1.5px;
+                    border-color: rgb(236, 235, 235);
+                    text-align: left;
+                }
+                
+
+                .txtresult{
+
+                    background-color: white;
+                    color: rgba(17, 63, 27, 0.808);
+                    //margin-top: 25px;
+                    // margin-left: 50px;
+                    margin-right: 10px;
+                    padding-right: 10px;
+                    flex: 2;
+                    //width: 40%;
+                    //height: 45px;
+                    //-left: 10px;
+                    font-size: 20px;
+                    font-weight: 600px;
+                    border-radius: 200px;
+                    //border:solid;
+                    //border-width: 1.5px;
+                    border-color:transparent;
+                    text-align: right;
+                }
+                
+            }
+            // .inputsandresult:hover{
+            //     // box-shadow: 2px 2px 10px rgba(165, 164, 164, 0.5);
+            //     // border-radius: 15px;
+            //     // border-radius: 200px;
+            //     // border:solid;
+            //     // border-width: 1.5px;
+            //     // border-color: rgb(236, 235, 235);
+            // }
+
+            p{
+                font-size: 17px;
+                font-weight: bold;
+                text-align: center;
+
+            }
+
+            .calculator{
+                
+                //width: 50%;
+                //background-color: red;
+                //height: 550px;
+
+                display: grid;
+                grid-template-rows: 80px 1fr;
+
+
+
+                .btnkeys{
+                    //background-color: black;
+                    margin-top: 30px;
+                    margin-left: 10px;
+                    margin-right: 10px;
+                    display: grid;
+                    grid-template-rows: repeat(4,1fr);
+                    //height: 420px;
+
+                    button{
+                        border-radius: 5px;
+                    }
+                    .onetofour{
+                        //height: 100px;
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: repeat(4,1fr);
+                        column-gap: 20px;
+                       
+                    }
+                    .fivetoeight{
+                        //height: 100px;
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: repeat(4,1fr);
+                        column-gap: 20px;
+
+                    }
+                    .nineandothers{
+                        height: 100px;
+                        width: 100%;
+                        display: grid;
+                        grid-template-columns: repeat(4,1fr);
+                        column-gap: 20px;
+
+                        // .btnplus{
+                        //     width: 100%;
+                        // }
+
+                    }
+
+                    .symb{
+                        display: grid;
+                        grid-template-columns: repeat(4,1fr);
+                        column-gap: 20px;
+                        width: 100%;
+                        button{
+                            height: 60%;
+                            text-align: center;
+                        }
+                    }
+
+                    .getresult{
+                        display: grid;
+                        grid-template-columns: 1fr;
+                    }
+                    button{
+                        height: 65px;
+                        width: 110px;
+                        font-size: 22px;
+                        border: none;
+                        background-color: white;
+                        color: rgb(168, 168, 168);
+                    }
+
+                    button:hover{
+                        color: black;
+                        box-shadow: 2px 2px 10px rgba(219, 218, 218, 0.5);
+                    }
+
+                    .btnequalto{
+                        background-color: rgb(219, 218, 218);
+                        color: black;
+                        border-radius: 30px;
+                    }
+                }
+            }
+
+
+
+        }
+
+        .gridcontainer:hover{
+
+            box-shadow: 2px 2px 10px rgba(165, 164, 164, 0.5);
+            border-radius: 15px;
+            //border-width: 2px;
+        }
+
+
+
+
+        // .flexcontainer{
+        //     //background-color: red;
+        //     display: flex;
+        //     flex-direction: column;
+        //     p{
+        //         font-size: 17px;
+        //         font-weight: bold;
+        //         text-align: center;
+        //         flex:1;
+
+        //     }
+
+        //     .calculator{
+        //         //background-color: red;
+        //         height: 550px;
+
+        //         display: flex;
+        //         flex-direction: column;
+
+        //         .txtnumber{
+        //             margin-top: 25px;
+        //             margin-left: 90px;
+        //             width: 400px;
+        //             height: 45px;
+        //             //-left: 10px;
+        //             font-size: 18px;
+        //             border-radius: 200px;
+        //             border:solid;
+        //             border-width: 1.5px;
+        //             border-color: rgb(236, 235, 235);
+        //             text-align: center;
+        //         }
+        //         .txtnumber:hover{
+        //             box-shadow: 2px 2px 10px rgba(219, 218, 218, 0.5);
+        //             border-radius: 15px;
+        //         }
+
+
+        //         .btnkeys{
+        //             //background-color: red;
+        //             margin-top: 40px;
+        //             margin-left: 50px;
+        //             margin-right: 50px;
+        //             display: flex;
+        //             flex-direction: column;
+        //             height: 420px;
+
+        //             .onetofour{
+        //                 height: 100px;
+        //                 display: flex;
+        //                 justify-content: space-between;
+
+        //             }
+        //             .fivetoeight{
+        //                 height: 100px;
+        //                 display: flex;
+        //                 justify-content: space-between;
+
+        //             }
+        //             .nineandothers{
+        //                 height: 100px;
+        //                 display: flex;
+        //                 justify-content:space-between;
+        //                 .btnzero{
+        //                     //flex:1;
+        //                     margin-left: 20px;
+        //                 }
+        //                 .btnplus{
+        //                     flex:1;
+        //                     margin-left: 20px;
+        //                 }
+
+        //             }
+
+        //             .symb{
+        //                 display: flex;
+        //                 justify-content:space-between;
+        //                 button{
+        //                     height: 50px;
+        //                 }
+        //             }
+
+        //             .getresult{
+        //                 display: grid;
+        //                 grid-template-columns: 1fr;
+        //             }
+        //             button{
+        //                 height: 65px;
+        //                 width: 110px;
+        //                 font-size: 22px;
+        //                 border: none;
+        //                 background-color: white;
+        //                 color: rgb(168, 168, 168);
+        //             }
+
+        //             button:hover{
+        //                 color: black;
+        //                 box-shadow: 2px 2px 10px rgba(219, 218, 218, 0.5);
+        //             }
+
+        //             .btnequalto{
+        //                 background-color: rgb(219, 218, 218);
+        //                 color: black;
+        //                 border-radius: 30px;
+        //             }
+        //         }
+        //     }
+
+
+
+
+        // }
+
+        // .flexcontainer:hover{
+        //     box-shadow: 2px 2px 10px rgba(219, 218, 218, 0.5);
+        //     border-radius: 15px;
+        // }
+    }
+
+    
+}
+// @media screen and (max-width:532px){
+//     body{
+//         background-color: black;
+//         orientation: landscape;
+//     }
+// }

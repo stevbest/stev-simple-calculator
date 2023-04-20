@@ -1,0 +1,127 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  justify-content: center;
+}
+body .containers {
+  margin-top: 7%;
+}
+body .containers .gridcontainer {
+  width: 100%;
+  padding-top: 10px;
+}
+body .containers .gridcontainer .inputsandresult {
+  box-shadow: 2px 2px 10px rgba(165, 164, 164, 0.5);
+  border-radius: 15px;
+  border-radius: 200px;
+  border: solid;
+  border-width: 1.5px;
+  border-color: rgb(236, 235, 235);
+  margin: 0 10px;
+  margin-top: 30px;
+  height: 64%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+body .containers .gridcontainer .inputsandresult .txtnumber {
+  margin-left: 10px;
+  margin-right: 20px;
+  flex: 2;
+  padding-left: 10px;
+  font-size: 16px;
+  border-radius: 200px;
+  border: none;
+  border-width: 1.5px;
+  border-color: rgb(236, 235, 235);
+  text-align: left;
+}
+body .containers .gridcontainer .inputsandresult .txtresult {
+  background-color: white;
+  color: rgba(17, 63, 27, 0.808);
+  margin-right: 10px;
+  padding-right: 10px;
+  flex: 2;
+  font-size: 20px;
+  font-weight: 600px;
+  border-radius: 200px;
+  border-color: transparent;
+  text-align: right;
+}
+body .containers .gridcontainer p {
+  font-size: 17px;
+  font-weight: bold;
+  text-align: center;
+}
+body .containers .gridcontainer .calculator {
+  display: grid;
+  grid-template-rows: 80px 1fr;
+}
+body .containers .gridcontainer .calculator .btnkeys {
+  margin-top: 30px;
+  margin-left: 10px;
+  margin-right: 10px;
+  display: grid;
+  grid-template-rows: repeat(4, 1fr);
+}
+body .containers .gridcontainer .calculator .btnkeys button {
+  border-radius: 5px;
+}
+body .containers .gridcontainer .calculator .btnkeys .onetofour {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+body .containers .gridcontainer .calculator .btnkeys .fivetoeight {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+body .containers .gridcontainer .calculator .btnkeys .nineandothers {
+  height: 100px;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+}
+body .containers .gridcontainer .calculator .btnkeys .symb {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  -moz-column-gap: 20px;
+       column-gap: 20px;
+  width: 100%;
+}
+body .containers .gridcontainer .calculator .btnkeys .symb button {
+  height: 60%;
+  text-align: center;
+}
+body .containers .gridcontainer .calculator .btnkeys .getresult {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+body .containers .gridcontainer .calculator .btnkeys button {
+  height: 65px;
+  width: 110px;
+  font-size: 22px;
+  border: none;
+  background-color: white;
+  color: rgb(168, 168, 168);
+}
+body .containers .gridcontainer .calculator .btnkeys button:hover {
+  color: black;
+  box-shadow: 2px 2px 10px rgba(219, 218, 218, 0.5);
+}
+body .containers .gridcontainer .calculator .btnkeys .btnequalto {
+  background-color: rgb(219, 218, 218);
+  color: black;
+  border-radius: 30px;
+}
+body .containers .gridcontainer:hover {
+  box-shadow: 2px 2px 10px rgba(165, 164, 164, 0.5);
+  border-radius: 15px;
+}/*# sourceMappingURL=index.css.map */
